@@ -1,0 +1,45 @@
+#
+# Kbuild ignores
+#
+.*
+*.o
+*.o.*
+*.a
+*.s
+
+#
+# Never ignore these
+#
+!.gitignore
+
+#
+# Normal output
+#
+*.gen
+/log
+/mksh.exe
+/mksh
+
+#
+# Backups / patches
+#
+*~
+*.orig
+*.rej
+/*.patch
+
+#
+# debugging stuff
+#
+core
+.gdb_history
+.gdbinit
+
+#
+# testing output
+#
+/test.sh
+/signames.inc
+/conftest.c
+/lft.c
+/Rebuild.sh
